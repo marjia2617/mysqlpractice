@@ -1,3 +1,4 @@
+Retrieve Employees with Department Names
 create table employees(
    emp_id int,
    name varchar(25),
