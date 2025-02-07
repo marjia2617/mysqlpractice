@@ -1,4 +1,3 @@
-Get Customers with Their Orders and Items
 create table customers(
     customer_id int,
     name varchar(25)
