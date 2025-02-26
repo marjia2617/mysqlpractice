@@ -15,3 +15,18 @@ values(3, "Alex", "alex@email.com", "2023-11-10"),
       
 delete from customer_4
 where id = 3;      
+
+create table order_5(
+  id int,
+  customer_id int,
+  product_name varchar(10),
+  order_date date
+);
+
+insert into order_5
+values(1, 3, "Laptop", "2024-01-15"),
+      (2, 3, "Mouse", "2024-02-10"),
+      (3, 4, "Keyboard", "2024-02-12");
+      
+delete from order_5
+where customer_id = 3;      
