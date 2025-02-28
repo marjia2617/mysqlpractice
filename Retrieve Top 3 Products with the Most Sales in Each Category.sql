@@ -16,6 +16,20 @@ values(1, "Laptop", "Electronics", 1000),
       (4, "Headphones", "Accessories", 200),
       (5, "Mouse", "Accessories", 50),
       (6, "Keyboard", "Accessories", 80);
+
+create table sales(
+  id int,
+  product_id int,
+  quantity int
+);
+
+insert into sales
+values(1, 1, 20),
+      (2, 2, 35),
+      (3, 3, 25),
+      (4, 4, 50),
+      (5, 5, 10),
+      (6, 6, 30);
       
 select product_6.category, product_6.name, sales.quantity
 from product_6
