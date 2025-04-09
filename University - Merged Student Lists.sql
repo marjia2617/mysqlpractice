@@ -9,7 +9,17 @@ create table current_students(
 insert into current_students
 values(1, "Alice"),
 	  (2, "Bob"),
-      (3, "Carol");  
+      (3, "Carol");
+
+create table alumni(
+  student_id int,
+  name varchar(10)
+);
+
+insert into alumni
+values(3, "Carol"),
+      (4, "David"),
+      (5, "Eva");
       
 /*   Get a list of all unique students (current and alumni) 
      with no duplicates.    */
